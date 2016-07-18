@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>Ask the Audience</title>
+</head>
+<body>
+  <div id="status-message"></div>
+  <div id="connection-count"></div>
+  <div id="choices">
+    <button>A</button>
+    <button>B</button>
+    <button>C</button>
+    <button>D</button>
+  </div>
+  <div id="tally">
+    <p>A: <span id="a-count">0</span></p>
+    <p>B: <span id="b-count">0</span></p>
+    <p>C: <span id="c-count">0</span></p>
+    <p>D: <span id="d-count">0</span></p>
+  </div>
+  <div id="confirm"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
+</html>
